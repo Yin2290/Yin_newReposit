@@ -3,5 +3,34 @@ html,body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('assets/images/login_bg.jpg');
+    background: url('../images/login_bg.jpg');
+}
+.box{
+    height: 310px;
+    width: 400px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.box_title{
+    height: 60px;
+    background: url('../images/login_title.png') no-repeat center;
+}
+.layui-form{
+    padding: 0 30px;
+}
+#box-dz{
+    position: absolute;
+    left: 80%;
+    top: 85%;
+}
+.layui-icon{
+    position: absolute;
+    left: 40px;
+    padding-top: 10px;
+}
+.layui-input{
+    padding-left: 30px;
 }
